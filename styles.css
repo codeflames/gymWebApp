@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+  
+body{
+  /* overflow: hidden; */
+  font-family: Montserrat, sans-serif;
+  color: #505962;
+}
+
+/* NAvigation */
+.navbar{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background-color: rgba(0,0,0, .6) !important;
+}
+.navbar .navbar-brand{
+  height: 3rem;
+}
+
+.navbar-nav li{
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+   color: white;
+   padding-top: .8rem;
+
+}
+.navbar-dark .navbar-nav .nav-link .active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: green;
+  padding-top: .8rem;
+  
+}
+
+/* end of navigation styling */
+
+/* landing page */
+
+.home-inner{
+  background-image: url("gymhome.jpg");  
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: .9;
+  background-attachment: fixed;
+  /* object-fit: cover; */
+}
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 35%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+.caption h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  letter-spacing: .3rem;
+  text-shadow: .1rem, .1rem, .8rem black;
+  padding-bottom: 1rem;
+
+}
+.caption h3{
+  font-size: 2rem;
+  text-shadow: .1rem, .1rem, .5rem black;
+  padding-bottom: 1.6rem;
+}
+
+.btn-lg{
+  padding: .6rem 1.3rem;
+  border-width: medium;
+  font-size: 1.1rem;
+}
+
+/* start of services */
+
+.narrow{
+  width: 85%;
+  margin:0 auto;
+  padding-top: 2rem;
+}
+
+.narrow h3{
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-shadow: .1rem, .1rem, .5rem black;
+  padding-bottom: 1.6rem;
+}
+
+.narrow .btn-lg{
+  border-width: medium;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 1.2rem;
+  margin: 1rem;
+  background-color: rgb(115, 173, 115);
+  border-color: rgb(64, 99, 36);
+}
+.narrow .btn-lg:hover{
+  
+  background-color: rgb(5, 148, 5);
+  border-color: rgb(233, 236, 230);
+}
+
+.jumbotron{
+  margin-bottom: 0;
+}
+
+
+
+
+#prices{
+  margin-top: 0;
+  background-image: url("gymhome.jpg");  
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: .9;
+  background-attachment: fixed;
+}
