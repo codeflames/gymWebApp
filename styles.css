@@ -245,13 +245,23 @@ body{
     
     font-size: 1rem;
   }
+  form{
+    padding: 2rem;
+    margin: 0 auto;
+    width: 1;
+    background-color: burlywood;
+    
+  }
   
 }
 
 /* login page */
 form{
+  padding: 3rem;
   width: 45%;
   margin: 0 auto;
+  
+  background-color:rgba(255, 255, 255, 0.151);
   
 }
 
@@ -262,4 +272,6 @@ form{
 .form-btn:hover{
   color: white;
 }
-
+.login-page{
+  top: 15%;
+}

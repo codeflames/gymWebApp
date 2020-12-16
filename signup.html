@@ -31,7 +31,7 @@
 
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="index.html#services">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#prices">Prices</a>
@@ -50,7 +50,7 @@
                         <a class="nav-link" href="login.html">Sign in </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="signup.html">Sign Up Here </a>
+                        <a class="nav-link" href="#">Sign Up Here </a>
                     </li>
                 </ul>
         </nav>
@@ -64,12 +64,42 @@
         </div>
     </div>
 
-    <div class="caption text-center ">
-        <h1>Welcome to Gymlabs</h1>
-      <h3>Please select your service package below</h3>
-      <a class="btn btn-outline-light btn-lg" href="#"> Start Here </a>
+    <div class="caption text-center login-page">
+
+
+        <form action="#">
+            <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" placeholder="Enter email" id="email" name="uname" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" placeholder="Enter password" id="pwd" name="pswd" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+            <div class="form-group">
+                <label for="pwd">Repeat Password:</label>
+                <input type="password" class="form-control" placeholder="Enter password again"  id="pwd" name="pswd" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+            
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <a class="btn form-btn" href="login.html">sign in instead</a>
+                    </label>
+                </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
     </div>
 
+    </div>
 
 </body>
 
