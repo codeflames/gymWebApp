@@ -247,3 +247,19 @@ body{
   }
   
 }
+
+/* login page */
+form{
+  width: 45%;
+  margin: 0 auto;
+  
+}
+
+.form-btn{
+  color: white;
+  text-transform: capitalize;
+}
+.form-btn:hover{
+  color: white;
+}
+
